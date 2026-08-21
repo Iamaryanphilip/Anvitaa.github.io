@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>For Anvitaa ♡</title>
+
+    <!-- GOOGLE FONTS -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+
+    <link
+        rel="stylesheet"
+        href="./style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+<!-- =================================================
+     BACKGROUND
+================================================= -->
+
+<div class="hearts"></div>
+
+
+<!-- =================================================
+     NAVIGATION
+================================================= -->
+
+<nav class="top-nav">
+
+    <div class="nav-logo">
+        A ♡
+    </div>
+
+    <div class="nav-links">
+
+        <a href="#home">Home</a>
+
+        <a href="#story">Story</a>
+
+        <a href="#smile">Smile</a>
+
+        <a href="#memories">Memories</a>
+
+        <a href="#music">Music</a>
+
+        <a href="#letter">Letter</a>
+
+    </div>
+
+</nav>
+
+
+<!-- =================================================
+     MAIN
+================================================= -->
+
+<main>
+
+
+<!-- =================================================
+     HERO
+================================================= -->
+
+<section
+    class="hero section"
+    id="home"
+>
+
+    <div class="hero-overlay"></div>
+
+
+    <div class="hero-photo">
+
+        <img
+            src="./photos/photo1.jpg"
+            alt="Anvitaa"
+        >
+
+    </div>
+
+
+    <div class="hero-content">
+
+        <p class="eyebrow">
+            A LITTLE STORY
+        </p>
+
+
+        <h1>
+            Anvitaa
+        </h1>
+
+
+        <p class="hero-subtitle">
+
+            A little corner of the internet
+            made just for you.
+
+        </p>
+
+
+        <button
+            class="primary-button"
+            onclick="startWebsite()"
+        >
+            Begin our story ♡
+        </button>
+
+    </div>
+
+
+    <div class="scroll-indicator">
+
+        <span>SCROLL</span>
+
+        <span>↓</span>
+
+    </div>
+
+</section>
+
+
+<!-- =================================================
+     STORY
+================================================= -->
+
+<section
+    class="story section"
+    id="story"
+>
+
+    <div class="section-heading">
+
+        <p class="eyebrow">
+            01 · A LITTLE STORY
+        </p>
+
+
+        <h2>
+
+            Some people
+            make ordinary days
+            feel extraordinary.
+
+        </h2>
+
+    </div>
+
+
+    <div class="story-content">
+
+
+        <div class="story-photo">
+
+            <img
+                src="./photos/photo2.jpg"
+                alt="Anvitaa"
+            >
+
+        </div>
+
+
+        <div class="story-text">
+
+            <p>
+                I wanted to make something
+                that was completely yours.
+            </p>
+
+
+            <p>
+
+                Not something expensive.
+                Not something complicated.
+
+                Just something that says:
+
+            </p>
+
+
+            <blockquote>
+                "You are special."
+            </blockquote>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =================================================
+     SMILE
+================================================= -->
+
+<section
+    class="feature section"
+    id="smile"
+>
+
+    <div class="feature-photo">
+
+        <img
+            src="./photos/photo3.jpg"
+            alt="Anvitaa smiling"
+        >
+
+    </div>
+
+
+    <div class="feature-content">
+
+        <p class="eyebrow">
+            02 · YOUR SMILE
+        </p>
+
+
+        <h2>
+            That smile.
+        </h2>
+
+
+        <p>
+
+            There is something about
+            the way you smile.
+
+            Especially when your teeth
+            show and you don't even
+            realize how cute you look.
+
+        </p>
+
+
+        <p>
+
+            Never hide it.
+
+            It is one of my favourite
+            things about you.
+
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =================================================
+     BAK BAK
+================================================= -->
+
+<section
+    class="bakbak section"
+    id="bakbak"
+>
+
+    <div class="section-heading">
+
+        <p class="eyebrow">
+            03 · YOUR BAK-BAK
+        </p>
+
+
+        <h2>
+
+            And then...
+            there's your bak-bak. 😂
+
+        </h2>
+
+    </div>
+
+
+    <div class="quote-card">
+
+        <span class="quote-mark">
+            “
+        </span>
+
+
+        <p>
+
+            I could listen to your
+            endless stories, random
+            thoughts and little
+            complaints forever.
+
+        </p>
+
+
+        <span class="quote-heart">
+            ♡
+        </span>
+
+    </div>
+
+</section>
+
+
+<!-- =================================================
+     MEMORIES
+================================================= -->
+
+<section
+    class="memories section"
+    id="memories"
+>
+
+    <div class="section-heading">
+
+        <p class="eyebrow">
+            04 · MEMORIES
+        </p>
+
+
+        <h2>
+            Little moments.
+        </h2>
+
+
+        <p class="body-text">
+
+            Some moments deserve
+            to stay forever.
+
+        </p>
+
+    </div>
+
+
+    <div class="memory-grid">
+
+
+        <!-- PHOTO 1 -->
+
+        <div
+            class="memory-photo large"
+            onclick="openPhoto(this)"
+        >
+
+            <img
+                src="./photos/photo1.jpg"
+                alt="Anvitaa memory 1"
+            >
+
+            <div class="memory-overlay">
+
+                <span>01</span>
+
+                <p>
+                    Some moments are too beautiful
+                    to become memories.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- PHOTO 2 -->
+
+        <div
+            class="memory-photo"
+            onclick="openPhoto(this)"
+        >
+
+            <img
+                src="./photos/photo2.jpg"
+                alt="Anvitaa memory 2"
+            >
+
+            <div class="memory-overlay">
+
+                <span>02</span>
+
+                <p>
+                    Your smile makes even ordinary
+                    moments feel special.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- PHOTO 3 -->
+
+        <div
+            class="memory-photo"
+            onclick="openPhoto(this)"
+        >
+
+            <img
+                src="./photos/photo3.jpg"
+                alt="Anvitaa memory 3"
+            >
+
+            <div class="memory-overlay">
+
+                <span>03</span>
+
+                <p>
+                    Somehow, you make everything
+                    around you feel a little brighter.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- PHOTO 4 -->
+
+        <div
+            class="memory-photo tall"
+            onclick="openPhoto(this)"
+        >
+
+            <img
+                src="./photos/photo4.jpg"
+                alt="Anvitaa memory 4"
+            >
+
+            <div class="memory-overlay">
+
+                <span>04</span>
+
+                <p>
+                    If I could keep one moment forever,
+                    it might be this one.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- PHOTO 5 -->
+
+        <div
+            class="memory-photo"
+            onclick="openPhoto(this)"
+        >
+
+            <img
+                src="./photos/photo5.jpg"
+                alt="Anvitaa memory 5"
+            >
+
+            <div class="memory-overlay">
+
+                <span>05</span>
+
+                <p>
+                    Beautiful moments become unforgettable
+                    when they have you in them.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- PHOTO 6 -->
+
+        <div
+            class="memory-photo"
+            onclick="openPhoto(this)"
+        >
+
+            <img
+                src="./photos/photo6.jpg"
+                alt="Anvitaa memory 6"
+            >
+
+            <div class="memory-overlay">
+
+                <span>06</span>
+
+                <p>
+                    And somehow, every little memory
+                    with you feels worth keeping.
+                </p>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<!-- =================================================
+     MUSIC
+================================================= -->
+
+<section
+    class="song-section section"
+    id="music"
+>
+
+    <div class="music-heading">
+
+        <p class="eyebrow">
+            05 · OUR MUSIC
+        </p>
+
+
+        <h2>
+
+            Songs that<br>
+
+            <em>
+                remind me of you.
+            </em>
+
+        </h2>
+
+
+        <p class="body-text">
+            Pick a song and let it play.
+        </p>
+
+    </div>
+
+
+    <div class="vinyl-player">
+
+
+        <!-- PREVIOUS -->
+
+        <button
+            class="vinyl-nav"
+            id="prevSong"
+            aria-label="Previous song"
+        >
+
+            <span>‹</span>
+
+            <small>PREV</small>
+
+        </button>
+
+
+        <!-- VINYL -->
+
+        <div class="vinyl-stage">
+
+            <div
+                class="vinyl-record"
+                id="vinylRecord"
+            >
+
+                <div class="vinyl-grooves"></div>
+
+
+                <div class="vinyl-label">
+
+                    <span class="label-small">
+                        FOR
+                    </span>
+
+                    <span class="label-name">
+                        A
+                    </span>
+
+                    <span class="label-heart">
+                        ♡
+                    </span>
+
+                    <span class="label-small">
+                        WITH LOVE
+                    </span>
+
+                </div>
+
+
+                <div class="vinyl-hole"></div>
+
+            </div>
+
+
+            <div class="vinyl-shadow"></div>
+
+        </div>
+
+
+        <!-- NEXT -->
+
+        <button
+            class="vinyl-nav"
+            id="nextSong"
+            aria-label="Next song"
+        >
+
+            <span>›</span>
+
+            <small>NEXT</small>
+
+        </button>
+
+    </div>
+
+
+    <!-- SONG INFORMATION -->
+
+    <div class="vinyl-info">
+
+        <p class="playing-label">
+            ♫ &nbsp; NOW PLAYING
+        </p>
+
+
+        <h3 id="currentSong">
+            Our Song
+        </h3>
+
+
+        <p id="songArtist">
+            A song for you ♡
+        </p>
+
+
+        <p
+            class="song-counter"
+            id="songCounter"
+        >
+            01 / 04
+        </p>
+
+    </div>
+
+
+    <!-- PLAY / PAUSE -->
+
+    <button
+        class="vinyl-play"
+        id="mainPlayButton"
+        aria-label="Play music"
+    >
+
+        <span id="playIcon">
+            ▶
+        </span>
+
+    </button>
+
+
+    <!-- SONG DOTS -->
+
+    <div
+        class="song-dots"
+        id="songDots"
+    ></div>
+
+
+    <!-- AUDIO -->
+
+    <audio
+        id="backgroundMusic"
+        preload="metadata"
+    ></audio>
+
+</section>
+
+
+<!-- =================================================
+     LETTER
+================================================= -->
+
+<section
+    class="letter-section section"
+    id="letter"
+>
+
+    <div class="section-heading">
+
+        <p class="eyebrow">
+            06 · ONE LAST THING
+        </p>
+
+
+        <h2>
+            A letter for you.
+        </h2>
+
+    </div>
+
+
+    <div
+        class="envelope"
+        onclick="openLetter()"
+    >
+
+        <div class="envelope-flap"></div>
+
+
+        <div class="envelope-body">
+
+            <span>
+                For Anvitaa ♡
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <div
+        class="letter-content"
+        id="letterContent"
+    >
+
+        <p class="eyebrow">
+            DEAR ANVITAA,
+        </p>
+
+
+        <p>
+
+            You're great.
+
+            You're the best.
+
+            And I hope you never become
+            afraid of your own beauty.
+
+        </p>
+
+
+        <p>
+
+            You don't need to change
+            yourself to be beautiful.
+
+            You already are.
+
+        </p>
+
+
+        <p>
+
+            Keep smiling.
+
+            Keep talking.
+
+            Keep being you.
+
+        </p>
+
+
+        <p class="signature">
+
+            Always,
+
+            <br>
+
+            Aryan ♡
+
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =================================================
+     FINAL
+================================================= -->
+
+<section
+    class="final section"
+    id="final"
+>
+
+    <div class="final-content">
+
+        <p class="eyebrow">
+            JUST ONE MORE THING
+        </p>
+
+
+        <h2>
+
+            You are
+            very special to me.
+
+        </h2>
+
+
+        <button
+            class="primary-button"
+            onclick="createHearts()"
+        >
+            One last surprise ♡
+        </button>
+
+
+        <div
+            id="surprise"
+            class="surprise"
+        ></div>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+<!-- =================================================
+     PHOTO VIEWER
+================================================= -->
+
+<div
+    class="photo-viewer"
+    id="photoViewer"
+>
+
+    <button
+        class="close-photo"
+        onclick="closePhoto()"
+    >
+        ×
+    </button>
+
+
+    <img
+        id="largePhoto"
+        src=""
+        alt="Anvitaa memory"
+    >
+
+</div>
+
+
+<!-- =================================================
+     JAVASCRIPT
+================================================= -->
+
+<script src="./script.js"></script>
+
+
+</body>
+
+</html>
