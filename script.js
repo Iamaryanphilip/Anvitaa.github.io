@@ -49,25 +49,25 @@ const songs = [
     {
         title: "Our Song",
         artist: "A song for you ♡",
-        file: "./music/song1.mp3"
+        file: "./song1.mp3"
     },
 
     {
         title: "Our Memories",
         artist: "For the beautiful memories ♡",
-        file: "./music/song2.mp3"
+        file: "./song2.mp3"
     },
 
     {
         title: "A Song For Anvitaa",
         artist: "Because you're special ♡",
-        file: "./music/song3.mp3"
+        file: "./song3.mp3"
     },
 
     {
         title: "Forever",
         artist: "One more song for you ♡",
-        file: "./music/song4.mp3"
+        file: "./song4.mp3"
     }
 
 ];
